@@ -6,11 +6,11 @@ Automated test suite for the [Sauce Demo](https://www.saucedemo.com) shopping-ca
 
 The test automates and verifies the following end-to-end workflow:
 
-1. **Authenticate** as `standard_user` (Username: `standard_user` | Password: `secret_sauce`).
+1. **Authenticate** as `standard_user`.
 2. **Add** the "Sauce Labs Backpack" to the shopping cart.
 3. **Navigate** to the cart page.
 4. **Assert** the item is present in the cart.
-5. **Assert** the "Checkout" button is visible and enabled.
+5. **Assert** the "Checkout" button is enabled.
 
 ## Prerequisites
 
